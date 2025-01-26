@@ -69,3 +69,4 @@ Output HTML : [multiple](nuget-graph/example/output_multiple_args.html)
 ## Todo
 
 1. Add dependency list output and ordering for each visualised group?
+2. Add Package Versions to output
