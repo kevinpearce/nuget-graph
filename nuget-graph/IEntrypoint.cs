@@ -2,5 +2,5 @@ namespace nuget_graph;
 
 public interface IEntrypoint
 {
-    Task RunAsync();
+    Task Run(string[] args);
 }

@@ -9,4 +9,4 @@ builder.Services.AddTransient<IEntrypoint, Entrypoint>();
 var host = builder.Build();
 
 var entrypoint = host.Services.GetRequiredService<IEntrypoint>();
-await entrypoint.RunAsync();
+await entrypoint.Run(args);
