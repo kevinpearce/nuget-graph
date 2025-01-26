@@ -5,11 +5,6 @@ public class Graph
     private static string[] _allowedPrefixes = [];
     private Dictionary<string, Vertex> Vertices { get; } = new();
     public List<string> Edges { get; } = ["graph TD\n"];
-    
-    public Graph(string rootDirectory)
-    {
-        CreateGraph(rootDirectory);
-    }
 
     public Graph(string rootDirectory, string[] allowedPrefixes)
     {
