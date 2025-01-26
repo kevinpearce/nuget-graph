@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>nuget-graph</title>
+    <script src='https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</head>
+<body>
+    <h1>/redacted/nuget-graph/nuget-graph/example</h1>
+    <div class='mermaid'>
+        graph TD
+        MyProject.Project5
+        MyProject.Project5 --> Microsoft.Extensions.Hosting
+        MyProject.Project5 --> Serilog.Sinks.Console
+        MyProject.Project1
+        MyProject.Project1 --> Microsoft.Extensions.Hosting
+        MyProject.Project1 --> Serilog.Sinks.Console
+        MyProject.Project1 --> MyProject.Project2
+        MyProject.Project1 --> MyProject.Project3
+        MyProject.Project3
+        MyProject.Project3 --> Microsoft.Extensions.Hosting
+        MyProject.Project3 --> Serilog.Sinks.Console
+        MyProject.Project3 --> MyProject.Project2
+        MyProject.Project3 --> MyProject.Project4
+        MyProject.Project4
+        MyProject.Project4 --> Microsoft.Extensions.Hosting
+        MyProject.Project4 --> Serilog.Sinks.Console
+        MyProject.Project2
+        MyProject.Project2 --> Microsoft.Extensions.Hosting
+        MyProject.Project2 --> Serilog.Sinks.Console
+    </div>
+</body>
+</html>
