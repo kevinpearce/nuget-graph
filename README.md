@@ -8,6 +8,9 @@ Also allows for separation of concerns/groups where possible for parallel workin
 
 Creates and opens HTML with an embedded Mermaid Graph.
 
+> [!IMPORTANT]  
+> Requires all 'owned' repositories to be added to a specific root directory which commands are then run from
+
 ## Setup/Installation
 
 Run commands from the Solution level directory
