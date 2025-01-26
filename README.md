@@ -45,9 +45,9 @@ All examples run from root directory that is required to be visualised.
 nuget-graph
 ```
 
-Output HTML : [base](nuget-graph/example/output_base.html)
+Output HTML : [base](example/output_base.html)
 
-![base_image](nuget-graph/example/images/base.png)
+![base_image](example/images/base.png)
 
 ## Example 2 -  Singular Arg
 
@@ -55,9 +55,9 @@ Output HTML : [base](nuget-graph/example/output_base.html)
 nuget-graph MyProject
 ```
 
-Output HTML : [single](nuget-graph/example/output_single_arg.html)
+Output HTML : [single](example/output_single_arg.html)
 
-![base_image](nuget-graph/example/images/single_arg.png)
+![base_image](example/images/single_arg.png)
 
 ## Example 3 - Mulitple Args
 
@@ -65,9 +65,9 @@ Output HTML : [single](nuget-graph/example/output_single_arg.html)
 nuget-graph MyProject Serilog
 ```
 
-Output HTML : [multiple](nuget-graph/example/output_multiple_args.html)
+Output HTML : [multiple](example/output_multiple_args.html)
 
-![base_image](nuget-graph/example/images/multiple_args.png)
+![base_image](example/images/multiple_args.png)
 
 ## Todo
 
